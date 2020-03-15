@@ -19,7 +19,8 @@ body {
 }
 
 .header-list ul {
-  padding-right: 72px;
+  padding-right: 29px;
+  padding-left: 0px;
   padding-top: 10px;
   margin: auto;
   text-align: center;
