@@ -146,7 +146,17 @@ body {
 .black-theme {
   height: 200px;
   width: 200px;
-  border: 1px solid black;
+  border: 1px solid #D47980;
+  transition: border .30s ease-in-out;
+  -moz-transition: border .30s ease-in-out;
+  -webkit-transition: border .30s ease-in-out;
+}
+
+.black-theme:hover {
+  border: 3px solid black;
+  transition: border .20s ease-in-out;
+  -moz-transition: border .20s ease-in-out;
+  -webkit-transition: border .20s ease-in-out;
 }
 
 .black-theme-border {
@@ -160,6 +170,17 @@ body {
   height: 200px;
   width: 200px;
   border: 1px solid black;
+  transition: border .30s ease-in-out;
+  -moz-transition: border .30s ease-in-out;
+  -webkit-transition: border .30s ease-in-out;
+}
+
+.red-theme:hover {
+  border: 3px solid #D47980;
+  transition: border .20s ease-in-out;
+  -moz-transition: border .20s ease-in-out;
+  -webkit-transition: border .20s ease-in-out;
+  +
 }
 
 .red-theme-border {
@@ -195,6 +216,7 @@ body {
   height: 250px;
 }
 
+/* Form */
 .email-form {
   grid-row: 4 / 5;
   grid-column: 1 / 2;
@@ -229,6 +251,7 @@ body {
   width: 100px;
 }
 
+/* Footer */
 .footer {}
 
 .footer ul {
